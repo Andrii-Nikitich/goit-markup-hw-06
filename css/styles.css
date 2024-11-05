@@ -67,7 +67,6 @@ button {
 }
 
 /* ----------header----------*/
-
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -196,9 +195,9 @@ button {
     letter-spacing: 0.02em;
   }
 }
+/*----------------------------*/
 
 /*----------Mobile menu----------*/
-
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -246,3 +245,50 @@ button {
     display: none;
   }
 }
+
+/*------------------------------*/
+
+/*----------Sction Two----------*/
+.sec-two > .container {
+  padding-top: 24px;
+  padding-bottom: 96px;
+}
+.section-two-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  padding-top: 72px;
+}
+.section-two-text-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+@media screen and (max-width: 1158px) {
+  .sec-two-div {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-t-t {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .seection-t-tt {
+    width: calc((100% - 72px) / 2);
+  }
+}
+/*------------------------------*/
+/*----------Sction Two----------*/
