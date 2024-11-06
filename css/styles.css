@@ -537,8 +537,7 @@ button {
 .section-four-img {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
+  gap: 48px 24px;
 }
 .section-four-li {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -597,6 +596,210 @@ button {
   }
   .section-four-li {
     box-shadow: none;
+  }
+}
+/*------------------------------------*/
+
+/*---------------FOOTER---------------*/
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #2e2f42;
+}
+
+.footer-index {
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  max-width: 288px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-bottom: 72px;
+}
+.footer-meregi-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-three-div-ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-three-div-ul-li {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 72px;
+}
+.footer-three-div-ul-li-a {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-three-div-ul-li-a:hover {
+  background-color: #31d0aa;
+}
+.footer-three-div-ul-li-a:focus {
+  background-color: #31d0aa;
+}
+
+.footer-three-svg {
+  fill: #f4f4fd;
+}
+.fotter-form-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-ff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-form-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-form-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
+.footer-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
+  background: transparent;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer > .container {
+    padding: 0 0;
+  }
+  .footer-index {
+    justify-content: left;
+    margin-left: 108px;
+  }
+  .footer-text {
+    margin-left: 108px;
+    max-width: 264px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .planchet {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .footer-meregi-text {
+    text-align: left;
+  }
+  .fotter-form-text {
+    text-align: left;
+    margin-left: 108px;
+  }
+  .footer-ff {
+    justify-content: left;
+    margin-left: 108px;
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer > .container {
+    max-width: 1128px;
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: baseline;
+  }
+  .planchet {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .footer-box {
+  }
+  .footer-index {
+    display: inline-block;
+    margin-left: 0px;
+  }
+  .foot {
+    display: flex;
+    align-items: baseline;
+  }
+  .fotter-form-text {
+    margin-left: 80px;
+  }
+  .footer-ff {
+    flex-wrap: nowrap;
+    margin-left: 80px;
+  }
+  .footer-text {
+    margin-left: 0px;
+    margin-bottom: 0;
+  }
+  .footer-meregi {
+    margin-left: 120px;
   }
 }
 /*------------------------------*/
